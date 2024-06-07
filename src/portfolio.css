@@ -1,3 +1,15 @@
+:root {
+  --background-colour: #eac688;
+  --secondary-background: #e2c275;
+  --primary-header-colour: #83502e;
+  --secondary-header-colour: #9c5518;
+  --secondary-colour: #b5592a;
+  --third-colour: #f09027;
+  --fourth-colour: #c36a2d;
+}
+
 .portfolio-img {
-  width: 35%;
+  width: 60%;
+  border: 3px solid var(--secondary-colour);
+  padding: 5px;
 }
