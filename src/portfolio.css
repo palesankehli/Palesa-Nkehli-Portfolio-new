@@ -68,6 +68,15 @@ p {
   font-size: 19px;
 }
 
+a {
+  text-decoration: none;
+}
+
+span {
+  color: var(--description-color);
+  font-weight: 500;
+}
+
 .btn {
   background-color: var(--primary-color);
   color: white;
