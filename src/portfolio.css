@@ -1,6 +1,7 @@
 :root {
   --primary-color: #29abad;
-  --secondary-color: #6cb5b6b6 ;
+  --secondary-color: #6cb5b6b6;
+  --description-color: #95a3a3e7;
   --third-color: #72e8e1;
   --background-color: #e4fcf3a9;
   --navbrand-color: #29b4a9;
@@ -16,7 +17,7 @@ body {
 }
 
 .navbar-brand {
-  color: var(--navbrand-color) ;
+  color: var(--navbrand-color);
   font-weight: 700;
 }
 
@@ -40,11 +41,25 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color) ;
+  color: var(--secondary-color);
   font-size: 16px;
+  padding: 5px;
 }
 
+.coding-languages {
+  color: var(--description-color);
+  font-weight: 500;
+  padding: 3px 5px;
+}
 
+h3 {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
 
-
-
+p {
+  color: var(--description-color);
+  font-weight: 500;
+}
