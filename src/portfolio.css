@@ -1,45 +1,49 @@
 :root {
-  --background-colour: #e9e0cd3f;
-  --primary-header-colour: #83502e;
-  --secondary-header-colour: #9c5518;
-  --secondary-colour: #83502e8f;
-  --third-colour: #f09027;
-  --fourth-colour: #c36a2d;
-  --fifth-colour: #9c5618b9;
+  --primary-color: #29abad;
+  --secondary-color: #6cb5b6b6 ;
+  --third-color: #72e8e1;
+  --background-color: #e4fcf3a9;
+  --navbrand-color: #29b4a9;
 }
 
 .portfolio-img {
   width: 60%;
-  border: 2px solid var(--secondary-colour);
+  border: 2px solid var(--primary-color);
 }
 
 body {
-  background-color: var(--background-colour);
+  background-color: var(--background-color);
 }
 
 .navbar-brand {
-  color: var(--secondary-header-colour);
+  color: var(--navbrand-color) ;
   font-weight: 700;
 }
 
 .nav-link {
-  color: var(--secondary-header-colour);
-  font-weight: 500;
+  color: var(--primary-color);
+  font-weight: 700;
 }
 
 .nav-link:hover {
-  background-color: var(--secondary-header-colour);
-  color: var(--background-colour);
-  border-radius: 12px;
+  color: white;
+  background-color: #35bcbf;
+  border-radius: 15px;
+  padding: 7px 15px;
+  transition: 0.2ms ease-in-out;
 }
 
 h1 {
-  color: var(--primary-header-colour);
+  color: var(--primary-color);
   font-size: 70px;
   font-weight: 700;
 }
 
 h2 {
-  color: var(--fifth-colour);
-  font-size: 18px;
+  color: var(--secondary-color) ;
+  font-size: 16px;
 }
+
+
+}
+
