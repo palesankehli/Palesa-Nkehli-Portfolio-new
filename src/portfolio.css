@@ -12,10 +12,6 @@
   border: 3px solid var(--primary-color);
 }
 
-.homepage {
-  background-color: var(--background-color);
-}
-
 .navbar-brand {
   color: var(--navbrand-color);
   font-weight: 700;
@@ -60,6 +56,12 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 33px;
+}
+
 p {
   color: var(--description-color);
   font-weight: 500;
@@ -76,4 +78,29 @@ p {
   background-color: var(--background-color);
   color: var(--primary-color);
   border: 2px solid;
+}
+
+@media (max-width: 991px) {
+  .portfolio-img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 750px) {
+  .image {
+    display: none;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
